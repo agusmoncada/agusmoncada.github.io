@@ -1,0 +1,464 @@
+body, html {
+    margin: 0px;
+    background-color: #FBFBFB;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+a {
+    text-decoration: none;
+    color: #FBFBFB;
+}
+
+/* Home section */
+
+.home {
+    height: 750px;
+    background-size: cover;
+    background-image: url(img/Home.jpg);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+/* Here is the animated menu button */
+
+.header {
+    width: 100%;
+    padding: 0px;
+    height: 100px;
+    position: fixed;
+}
+
+.buttonContainer {
+    height: 80px;
+    width: 80px;
+    margin: 40px 0px 0px 40px;
+}
+
+.menuButton {
+    background-color: #434C57;
+    border-radius: 60%;
+    border-style: none;
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+}
+
+.menuButton span {
+    height: 6px;
+    width: 40px;
+    background-color: white;
+    margin: 3px auto;
+    content: "";
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menuButton .spanOne {
+    margin-top: 23px;
+} 
+
+/*Active state*/
+
+.menuButton .active .spanTwo {
+    background: transparent;
+}
+
+.menuButton .active .spanThree {
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.menuButton .active .spanOne {
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0;
+}
+
+/* This is the text container */
+
+.textBox {
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 22vw;
+}
+
+.agus, .desarrollador {
+    color: #EDEDED;
+    font-family: "Lato";
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    cursor: default;
+}
+
+.agus {
+    max-width: 100px;
+    max-height: 400px;
+    text-align: justify;
+    font-size: 110px;
+    text-shadow: -2px 2px #BBB;
+}
+
+.desarrollador {
+    font-size: 20px;
+    text-shadow: -1px 1px #BBB;
+    max-width: 300px;
+}
+
+/* "About me" section section */
+
+.about {
+    height: 1200px;
+    background-color: #FBFBFB;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed; 
+}
+
+.periscope {
+    height: 450px;
+    background-image: url(img/2014-09-06%2007.57.09%201.jpg);
+    background-position: top center;
+    background-size: 450px;
+    background-attachment: fixed;
+    border-radius: 50%;
+    width: 450px;
+    margin: 80px auto 0px;
+}
+
+.button {
+    /*background-image: url(icons/Artboard%201.svg);
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-size: 150px;
+    height: 150px;
+    width: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.button p {
+    font-family: "lato", serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 150px;
+    height: 40px;
+    padding-top: 9px;
+    margin-top: 60px;
+    border: 2px solid rgba(67,76,87, 100);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.bio {
+    width: 100%;
+    height: 230px;
+    margin: 7px auto 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.bio p {
+    font-family: "Lato", serif;
+    font-size: 25px;
+    font-weight: 300;
+    max-width: 550px;
+    margin: 5px auto;
+    cursor: default;
+    color: rgba(67,76,87, 100);
+}
+
+.egContainer {
+    width: auto;
+    height: 250px;
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.js, .css, .html {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-right: 35px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 11px solid rgba(67,76,87, 100);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.js p, .css p, .html p {
+    position: relative;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    color: #434C57;
+    cursor: default;
+}
+
+.js:hover, .css:hover, .html:hover {
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgba(67,76,87, 100);
+}
+
+
+/* Work section */
+
+.work {
+    height: 720px;
+    background-color: #FFF9EF;
+}
+
+.wContainer {
+    position: absolute;
+    width: 100%;
+    height: 560px;
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.workCenter {
+    height: 550px;
+    width: 530px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.workBox {
+    height: 250px;
+    width: 250px;
+    margin: 8px 0px;
+    background-color: darkgray;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cvButton {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 610px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cvButton button {
+    margin-top: 7px;
+    border: none;
+    height: 65px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: #5E6E81;
+    cursor: pointer;
+    box-shadow: 3px 3px 1px #72869D; 
+}
+
+.cvButton button p {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 24px;
+    color: #FBFBFB;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+/* "Contact me" section */
+
+.contact {
+    height: 230px;
+    background-color: #434C57; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+.contactContainer {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cont {
+    height: 130px;
+    width: 130px;
+    margin: 35px 25px 0 25;
+    border-radius: 100%;
+    border: 1px solid rgba(0,0,0,0.7);
+    background-color: #FBFBFB;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+
+#facebook {
+    background-image: url(icons/facebook29.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75px;
+}
+
+#twitter {
+    background-image: url(icons/twitter21.svg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mail {
+    background-image: url(icons/at2.svg);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mail:hover, #twitter:hover, #facebook:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 8px solid #FDEDD3;
+}
