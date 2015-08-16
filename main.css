@@ -3,8 +3,6 @@ body, html {
     background-color: #FBFBFB;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-
 a {
     text-decoration: none;
     color: #FBFBFB;
@@ -161,9 +159,6 @@ a {
 }
 
 .button {
-    /*background-image: url(icons/Artboard%201.svg);
-    background-position: center;
-    background-repeat: no-repeat;*/
     background-size: 150px;
     height: 150px;
     width: auto;
