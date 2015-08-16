@@ -149,7 +149,9 @@ a {
 
 .periscope {
     height: 450px;
+    background-color: black;
     background-image: url(img/2014-09-06%2007.57.09%201.jpg);
+    background-repeat: no-repeat;
     background-position: top center;
     background-size: 450px;
     background-attachment: fixed;
@@ -196,6 +198,7 @@ a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    cursor: default;
 }
 
 .bio {
