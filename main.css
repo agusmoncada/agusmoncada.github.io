@@ -79,7 +79,8 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto 0;
-    margin-right: 550px;
+    margin-right: 41vw;
+    margin-left: 10px;
 }
 
 header .wrap {
@@ -809,4 +810,5 @@ video {
     background-repeat: no-repeat;
     margin: auto 0;
     margin-left: 600px;
+    margin-right: 20px;
 }
