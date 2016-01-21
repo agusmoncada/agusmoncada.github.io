@@ -242,6 +242,7 @@ header .wrap .youtube {
 
 .about {
     width: 100vw;
+    height: 385px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -250,8 +251,6 @@ header .wrap .youtube {
     transform: translateZ(-1px);
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
-    height: 385px;
-    width: 100%;
     margin: 0;
     background-color: #F6F7F8;
     display: -webkit-box;
@@ -312,7 +311,7 @@ header .wrap .youtube {
 
 .info{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     top: 0;
     right: 0;
     bottom: 0;
@@ -456,7 +455,7 @@ header .wrap .youtube {
 
 .aReuniones {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 650px;
     top: 0;
     right: 0;
@@ -739,6 +738,9 @@ video {
     background-color: #2D2D2D;
     -webkit-transform: translateZ(0px);
     transform: translateZ(0px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -746,9 +748,19 @@ video {
     width: 150px;
     height: 200px;
     margin: auto 60;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-flex-flow: wrap column;
+    -ms-flex-flow: wrap column;
     flex-flow: wrap column;
 }
 
