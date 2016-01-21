@@ -34,7 +34,7 @@ a {
 
 .backgrnd {
     position: absolute;
-    background-image: url(img/IMG_0678.jpg);
+    background-image: url(img/IMG_0794_50.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ header .wrap .youtube {
 .title p{
     font-family: 'Lato', serif;
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 100;
     color: #F6F7F8;
     text-align: center;
     margin: auto 0;
