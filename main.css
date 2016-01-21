@@ -374,7 +374,7 @@ header .wrap .youtube {
     border-radius: 50%;
     border: 5px solid #F7F7F7;
     box-shadow: inset 0 0 10px #000000; 
-    background-image: url(img/map.png);
+    background-image: url(img/maps.jpg);
     background-position: center;
     background-size: 500px;
     -webkit-transition: all 0.2s ease-in-out;
@@ -385,7 +385,7 @@ header .wrap .youtube {
 .map:hover {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-size: 700px;
+    background-size: 650px;
 }
 
 /* Reuniones Cartel section */
