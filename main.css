@@ -812,3 +812,15 @@ video {
     margin-left: 600px;
     margin-right: 20px;
 }
+
+/* Media Queries*/
+
+@media (max-width: 1160px) {
+    .logoIgle {
+        margin-right: 36vw;
+    }
+    
+    .logoIgleSegundo {
+        margin-left: 450px;
+    }
+}
