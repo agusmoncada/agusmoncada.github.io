@@ -1,6 +1,8 @@
 body, html {
     margin: 0px;
     background-color: #2D2D2D;
+    width: 100vw;
+    height: 100vh;
 }
 
 a {
@@ -193,7 +195,7 @@ header .wrap .youtube {
     margin: auto 0;
     -webkit-animation: fadein 2.5s;
        -moz-animation: fadein 2.5s;
-        -ms-animation: fadein 2.5s; 
+        -ms-animation: fadein 2.5s;
          -o-animation: fadein 2.5s;
             animation: fadein 2.5s;
 }
@@ -373,7 +375,7 @@ header .wrap .youtube {
     height: 300px;
     border-radius: 50%;
     border: 5px solid #F7F7F7;
-    box-shadow: inset 0 0 10px #000000; 
+    box-shadow: inset 0 0 10px #000000;
     background-image: url(img/maps.jpg);
     background-position: center;
     background-size: 500px;
@@ -819,8 +821,89 @@ video {
     .logoIgle {
         margin-right: 36vw;
     }
-    
+
     .logoIgleSegundo {
         margin-left: 450px;
     }
+}
+
+@media (max-width: 540px) {
+  .home {
+    position: static;
+    perspective: 0px;
+    width: 100vw;
+    height: 100vh;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .backgrnd {
+    position: relative;
+    transform: none;
+    width: 100vw;
+    height: 200px;
+    min-height: 100vh;
+    background-size: cover;
+  }
+
+  header {
+    display: none;
+  }
+
+  .title {
+    position: relative;
+    transform: none;
+    margin-top: -280px;
+  }
+
+  .title p {
+    font-weight: 300;
+  }
+
+  .arrow {
+    position: relative;
+    transform: none;
+    margin-top: 50px;
+  }
+
+  .about {
+    transform: none;
+  }
+
+  .info {
+    transform: none;
+  }
+
+  .reu-heading {
+    transform: none;
+    z-index: 0;
+  }
+
+  .tlContainer {
+    transform: none;
+  }
+
+  .reuniones {
+    transform: none;
+  }
+
+  .aReuniones {
+    transform: none;
+  }
+
+  .video {
+    transform: none;
+  }
+
+  .newMembers {
+    transform: none;
+  }
+
+  #nuevosMiembros {
+    transform: none;
+  }
+
+  .footer {
+    transform: none;
+  }
+
 }
