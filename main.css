@@ -297,6 +297,7 @@ header .wrap .youtube {
 .about .pContainer p:nth-child(1){
     font-weight: 700;
     font-size: 25px;
+    margin: 0 auto;
 }
 
 .about .pContainer p:nth-child(2){
@@ -813,8 +814,9 @@ video {
 }
 
 @media (max-width: 540px) {
+
   .home {
-    position: static;
+    position: absolute;
     -webkit-perspective: 0px;
     perspective: 0px;
     width: 100vw;
@@ -828,8 +830,8 @@ video {
     -ms-transform: none;
     transform: none;
     width: 100vw;
-    height: 200px;
-    min-height: 100vh;
+    height: 600px;
+    min-height: 90px;
     background-size: cover;
   }
 
@@ -846,7 +848,7 @@ video {
   }
 
   .title p {
-    font-weight: 700;
+    font-weight: 300;
   }
 
   .arrow {
@@ -854,22 +856,56 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .about {
+    position: relative;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    margin-top: 140px;
+    height: 400px;
+  }
+
+  .about p {
+    width: 90vw;
+    padding: 0px;
+  }
+
+  .about .pContainer p:nth-child(2){
+      width: 90vw;
   }
 
   .info {
+    position: relative;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    margin-top: 0px;
+    height: 450px;
+  }
+
+  .info-text {
+    height: 114px;
+    width: 320px;
+  }
+
+  .info a {
+    margin: 0;
+  }
+
+  .map {
+    height: 80vw;
+    width: 80vw;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 auto;
   }
 
   .reu-heading {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -877,42 +913,56 @@ video {
   }
 
   .tlContainer {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   .reuniones {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   .aReuniones {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   .video {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   .newMembers {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   #nuevosMiembros {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
   }
 
   .footer {
+    position: relative;
+    margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
