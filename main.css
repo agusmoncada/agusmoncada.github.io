@@ -189,23 +189,15 @@ header .wrap .youtube {
 .title p{
     font-family: 'Lato', serif;
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 300;
     color: #F6F7F8;
     text-align: center;
     margin: auto 0;
     -webkit-animation: fadein 2.5s;
-       -moz-animation: fadein 2.5s;
-        -ms-animation: fadein 2.5s;
-         -o-animation: fadein 2.5s;
             animation: fadein 2.5s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
@@ -231,15 +223,8 @@ header .wrap .youtube {
 }
 
 .arrow:hover {
+    -webkit-animation: bounce 2s;
     animation: bounce 2s;
-}
-
-@-moz-keyframes bounce {
-        0%{ margin-top: 964px; }
-        25%{ margin-top: 977px; }
-        50%{ margin-top: 970px; }
-        75%{ margin-top: 975px; }
-        100%{ margin-top: 970px; }
 }
 
 @-webkit-keyframes bounce {
@@ -830,6 +815,7 @@ video {
 @media (max-width: 540px) {
   .home {
     position: static;
+    -webkit-perspective: 0px;
     perspective: 0px;
     width: 100vw;
     height: 100vh;
@@ -838,6 +824,8 @@ video {
 
   .backgrnd {
     position: relative;
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
     width: 100vw;
     height: 200px;
@@ -851,58 +839,82 @@ video {
 
   .title {
     position: relative;
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
     margin-top: -280px;
   }
 
   .title p {
-    font-weight: 300;
+    font-weight: 700;
   }
 
   .arrow {
     position: relative;
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
     margin-top: 50px;
   }
 
   .about {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .info {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .reu-heading {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
     z-index: 0;
   }
 
   .tlContainer {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .reuniones {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .aReuniones {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .video {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .newMembers {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   #nuevosMiembros {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
   .footer {
+    -webkit-transform: none;
+    -ms-transform: none;
     transform: none;
   }
 
