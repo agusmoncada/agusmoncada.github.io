@@ -887,8 +887,10 @@ video {
   }
 
   .info-text {
-    height: 114px;
-    width: 320px;
+    height: 90px;
+    width: 260px;
+    margin: 20px;
+    padding: 0px;
   }
 
   .info a {
@@ -896,8 +898,8 @@ video {
   }
 
   .map {
-    height: 80vw;
-    width: 80vw;
+    height: 70vw;
+    width: 70vw;
     max-width: 250px;
     max-height: 250px;
     margin: 0 auto;
