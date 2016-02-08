@@ -554,7 +554,7 @@ header .wrap .youtube {
     border: 85px solid rgba(0,0,0,0.2);
     border-radius: 50%;
     background-image: url(img/11045393_789327607857015_8345691211337868399_n.jpg);
-    background-size: 400px;
+    background-size: 450px;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-transition: all 0.3s ease-in-out;
@@ -619,9 +619,9 @@ video {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
 }
 
 .miembros{
@@ -865,7 +865,7 @@ video {
     -ms-transform: none;
     transform: none;
     margin-top: 140px;
-    height: 400px;
+    height: 350px;
   }
 
   .about p {
@@ -875,6 +875,11 @@ video {
 
   .about .pContainer p:nth-child(2){
       width: 90vw;
+      font-size: 15px;
+  }
+
+  .about .pContainer p:nth-child(1){
+    font-size: 22px;
   }
 
   .info {
@@ -889,7 +894,7 @@ video {
   .info-text {
     height: 90px;
     width: 260px;
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     padding: 0px;
   }
 
@@ -907,27 +912,38 @@ video {
 
   .reu-heading {
     position: relative;
-    margin-top: 0px;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-    z-index: 0;
+    display: none;
   }
 
   .tlContainer {
-    position: relative;
-    margin-top: 0px;
+    position: absolute;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    z-index: 20;
+    background-color: #F6F7F8;
+    margin-top: 1459px;
   }
 
   .reuniones {
-    position: relative;
-    margin-top: 0px;
+    margin-top: 1450px;
+    width: 180px;
+    height: 55px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    z-index: 20;
+    background-color: #F6F7F8;
+    border: 2px solid #2D2D2D;
+  }
+
+  .tlContainer p {
+      font-family: 'Old Standard TT', serif;
+      font-size: 27px;
+      font-weight: 300;
+      color: #2D2D2D;
+      text-align: center;
+      margin: auto 0;
   }
 
   .aReuniones {
@@ -936,6 +952,29 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    height: 1500px;
+  }
+
+  .reunionesContainer {
+    margin-top: 40px;
+  }
+
+  .card {
+    padding: 3px;
+    height: 250px;
+    margin-bottom: 5px;
+  }
+
+  .card p {
+    margin: 9px auto;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
+  }
+
+  .cardImg {
+    width: 190px;
+    height: 190px;
+    border: none;
   }
 
   .video {
@@ -944,6 +983,7 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    height: 31vh;
   }
 
   .newMembers {
@@ -952,6 +992,7 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    height: 800px;
   }
 
   #nuevosMiembros {
@@ -960,6 +1001,26 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+
+  .infoContainer {
+    height: 300px;
+    width: 100vw;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
   }
 
   .footer {
