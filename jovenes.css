@@ -40,9 +40,15 @@ a {
   font-size: 50px;
   font-weight: 400;
   margin: auto 0;
+  padding: 0;
   vertical-align: middle;
 }
 
+.backButton:hover {
+  -webkit-box-shadow: 4px 4px 26px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 26px -14px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 26px -14px rgba(0,0,0,0.75);
+}
 /* Image section */
 
 .imgHeader {
@@ -183,7 +189,7 @@ a {
 }
 
 .grid4 {
-  background-image: url(img/12308531_789327317857044_8028299348656084880_n.jpg);
+  background-image: url(img/12341048_789327337857042_6918271596830975844_n.jpg);
   background-position: center;
   background-size: cover;
 }
