@@ -1029,6 +1029,7 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+    height: 200px;
   }
 
 }
