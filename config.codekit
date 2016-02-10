@@ -13,24 +13,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/icons\/Oval 4 + ios7-musical-notes.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15104,
-		"inputAbbreviatedPath": "\/icons\/Oval 4 + ios7-musical-notes.png",
-		"outputAbbreviatedPath": "\/icons\/Oval 4 + ios7-musical-notes.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/icons\/Oval 4 Copy + i.png": {
+	"\/icons\/info.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13388,
-		"inputAbbreviatedPath": "\/icons\/Oval 4 Copy + i.png",
-		"outputAbbreviatedPath": "\/icons\/Oval 4 Copy + i.png",
+		"inputAbbreviatedPath": "\/icons\/info.png",
+		"outputAbbreviatedPath": "\/icons\/info.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/icons\/music.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15104,
+		"inputAbbreviatedPath": "\/icons\/music.png",
+		"outputAbbreviatedPath": "\/icons\/music.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

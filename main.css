@@ -551,7 +551,7 @@ header .wrap .youtube {
     height: 180px;
     margin: 0 auto;
     box-sizing: border-box;
-    border: 85px solid rgba(0,0,0,0.2);
+    border: 90px solid rgba(0,0,0,0.2);
     border-radius: 50%;
     background-image: url(img/11045393_789327607857015_8345691211337868399_n.jpg);
     background-size: 450px;
@@ -658,7 +658,7 @@ video {
 
 .infoContainer{
     height: 300px;
-    width: 800px;
+    width: 850px;
     margin: 70px auto 0;
     display: -webkit-box;
     display: -webkit-flex;
@@ -676,49 +676,55 @@ video {
     flex-flow: wrap;
 }
 
-.icon {
-    width: 160px;
-    height: 160px;
-    margin: auto 50px;
+.info--Card {
+    height: 300px;
+    width: 250px;
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-flex-flow: wrap;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
 }
 
-.musica{
-    background-image: url(icons/Oval%204%20+%20ios7-musical-notes.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.img--General {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.devocionales{
-    background-image: url(icons/book_icon_black_background_vector_280790.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.info--Card p {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'lato', serif;
+  font-weight: 300;
+  font-size: 20px;
 }
 
-.infoImportante{
-    background-image: url(icons/Oval%204%20Copy%20+%20i.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.musicImg {
+  background-image: url(icons/music.png);
 }
 
-
-.description {
-    width: 160px;
-    height: 60px;
-    margin: auto 50px;
-    margin-top: 20px;
+.devoImg {
+  background-image: url(icons/book_icon_black_background_vector_280790.png);
 }
 
-.description p{
-    width: 100%;
-    font-family: 'lato', serif;
-    font-size: 25px;
-    font-weight: 300;
-    color: #3C3C3C;
-    text-align: center;
-    margin: auto 0;
+.infoImg {
+  background-image: url(icons/info.png);
 }
 
 #nuevosMiembros {
@@ -977,6 +983,10 @@ video {
     border: none;
   }
 
+  .cardImg:hover {
+      border: none;
+  }
+
   .video {
     position: relative;
     margin-top: 0px;
@@ -992,20 +1002,20 @@ video {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-    height: 800px;
+    height: 1200px;
   }
 
+  .miembros {
+    margin: -140px auto 150px;
+}
+
   #nuevosMiembros {
-    position: relative;
-    margin-top: 0px;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
+    display: none;
   }
 
   .infoContainer {
-    height: 300px;
-    width: 100vw;
+    height: 700px;
+    width: 100%;
     margin: 0 auto;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1023,13 +1033,37 @@ video {
     flex-flow: wrap;
   }
 
+  .info--Card {
+    margin: 0;
+  }
+
   .footer {
     position: relative;
     margin-top: 0px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-    height: 200px;
+    height: 240px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row;
   }
+
+  .deptos, .contacto {
+    margin: 30px auto auto 2.5vw;
+    width: 200px;
+  }
+
+  .logoIgleSegundo {
+    display: none;
+  }
+
+  .list-modifier p {
+    float: left;
+  }
+
+
 
 }
