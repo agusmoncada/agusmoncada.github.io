@@ -123,17 +123,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/12308531_789327317857044_8028299348656084880_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75180,
-		"inputAbbreviatedPath": "\/img\/12308531_789327317857044_8028299348656084880_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12308531_789327317857044_8028299348656084880_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/12308634_789326687857107_986609377723837112_n.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -207,17 +196,6 @@
 		"initialSize": 627412,
 		"inputAbbreviatedPath": "\/img\/IMG_0090__1453909662_152.168.99.2.jpg",
 		"outputAbbreviatedPath": "\/img\/IMG_0090__1453909662_152.168.99.2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/IMG_0794_50.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 203964,
-		"inputAbbreviatedPath": "\/img\/IMG_0794_50.jpg",
-		"outputAbbreviatedPath": "\/img\/IMG_0794_50.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
