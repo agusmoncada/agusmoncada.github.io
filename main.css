@@ -186,7 +186,7 @@ header .wrap .youtube {
     transform: translateZ(-1.2px) scale(3);
 }
 
-.title p{
+.title h1{
     font-family: 'Lato', serif;
     font-size: 50px;
     font-weight: 300;
@@ -292,6 +292,7 @@ header .wrap .youtube {
     color: #2D2D2D;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
 }
 
 .about .pContainer p:nth-child(1){

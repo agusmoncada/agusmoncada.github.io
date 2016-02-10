@@ -54,7 +54,7 @@ a {
 
 .imgHeader {
     width: 100%;
-    height: 730px;
+    height: 700px;
     background-image: url(img/IMG_0844.JPG);
     background-size: cover;
     background-position: center;
@@ -105,6 +105,7 @@ a {
 .info p:nth-child(2){
     font-size: 20px;
     font-weight: 100;
+    margin-bottom: 20px;
 }
 
 .reuniones {
@@ -135,7 +136,7 @@ a {
 .reuContainer p:nth-child(n+2) {
     font-size: 25px;
     font-weight: 100;
-    margin: 8 auto auto auto;
+    margin: 6 auto auto auto;
 }
 
 .reuContainer p:nth-child(3) {
@@ -143,6 +144,7 @@ a {
     padding: 4px;
     border: 1px solid #454545;
     border-radius: 5px;
+    margin-top: 12px;
 }
 
 .photosGrid {
