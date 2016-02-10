@@ -222,17 +222,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/maps copy.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 138343,
-		"inputAbbreviatedPath": "\/img\/maps copy.jpg",
-		"outputAbbreviatedPath": "\/img\/maps copy.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/maps.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

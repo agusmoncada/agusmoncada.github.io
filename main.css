@@ -357,6 +357,7 @@ header .wrap .youtube {
 .info a {
     margin: auto 100px auto;
 }
+
 .map {
     width: 300px;
     height: 300px;
@@ -369,7 +370,6 @@ header .wrap .youtube {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-
 
 .map:hover {
     -webkit-transition: all 0.3s ease-in-out;
