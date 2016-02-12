@@ -963,7 +963,7 @@ video {
   }
 
   .reunionesContainer {
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
   .card {
@@ -1060,7 +1060,7 @@ video {
   }
 
   .deptos, .contacto {
-    margin: 30px auto auto 2.5vw;
+    margin: 30px auto auto 0px;
     width: 200px;
   }
 
@@ -1070,6 +1070,11 @@ video {
 
   .list-modifier p {
     float: left;
+    font-weight: 300;
+  }
+
+  .list-modifier li {
+    font-weight: 300;
   }
 
 }
