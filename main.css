@@ -834,7 +834,6 @@ video {
   .backgrnd {
     position: relative;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     width: 100vw;
     height: 600px;
@@ -849,7 +848,6 @@ video {
   .title {
     position: relative;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     margin-top: -280px;
   }
@@ -861,7 +859,6 @@ video {
   .arrow {
     position: relative;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     margin-top: 40px;
   }
@@ -869,7 +866,6 @@ video {
   .about {
     position: relative;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     margin-top: 140px;
     height: 350px;
@@ -892,7 +888,6 @@ video {
   .info {
     position: relative;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     margin-top: 0px;
     height: 450px;
@@ -925,7 +920,6 @@ video {
   .tlContainer {
     position: absolute;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     z-index: 20;
     background-color: #F6F7F8;
@@ -937,7 +931,6 @@ video {
     width: 180px;
     height: 55px;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     z-index: 20;
     background-color: #F6F7F8;
@@ -957,7 +950,6 @@ video {
     position: relative;
     margin-top: 0px;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     height: 1500px;
   }
@@ -992,7 +984,6 @@ video {
     position: relative;
     margin-top: 0px;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     height: 31vh;
   }
@@ -1001,7 +992,6 @@ video {
     position: relative;
     margin-top: 0px;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     height: 1150px;
   }
@@ -1013,7 +1003,7 @@ video {
     padding: 7px;
 }
 
-.miembros p {
+  .miembros p {
     font-size: 25px;
 }
 
@@ -1049,14 +1039,23 @@ video {
     position: relative;
     margin-top: 0px;
     -webkit-transform: none;
-    -ms-transform: none;
     transform: none;
     height: 240px;
     width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-flow: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+            flex-flow: row;
   }
 
   .deptos, .contacto {
