@@ -223,8 +223,8 @@ header .wrap .youtube {
 }
 
 .arrow:hover {
-    -webkit-animation: bounce 2s;
-    animation: bounce 2s;
+    -webkit-animation: bounce 1.5s;
+    animation: bounce 1.5s;
 }
 
 @-webkit-keyframes bounce {
