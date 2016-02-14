@@ -66,10 +66,20 @@ h2 {
   height: 1000px;
   margin-top: 570px;
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-flow: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   background-color: #F6F7F8;
 }
 
@@ -80,7 +90,7 @@ h3, p, article {
 }
 
 h3 {
-  margin: 80px 0 20px 70px;
+  margin: 0px 0 20px 70px;
 }
 
 .titulo--container {
@@ -97,20 +107,28 @@ p {
 
 article {
   width: 800px;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
 }
 
 .topButton {
   height: 70px;
   width: 70px;
-  margin: 10 auto;
+  margin: 20 auto;
   border-radius: 50%;
   background-color: #000000;
   z-index: 20;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
 }
 
 .topButton p {

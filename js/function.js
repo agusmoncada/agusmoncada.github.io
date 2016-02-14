@@ -1,5 +1,5 @@
 var scrollY = 0;
-var distance = 17;
+var distance = 14;
 var speed = 1;
 
 function autoScrollTo(el) {
