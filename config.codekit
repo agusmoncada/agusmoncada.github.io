@@ -302,17 +302,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/NerdBlogCSS\/back.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.92946e+06,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/back.jpg",
-		"outputAbbreviatedPath": "\/NerdBlogCSS\/back.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/NerdBlogCSS\/DesktopHD2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -331,28 +320,6 @@
 		"initialSize": 240555,
 		"inputAbbreviatedPath": "\/NerdBlogCSS\/ECB_NY_89t.png",
 		"outputAbbreviatedPath": "\/NerdBlogCSS\/ECB_NY_89t.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/NerdBlogCSS\/IMG_0860.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.40885e+06,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/IMG_0860.JPG",
-		"outputAbbreviatedPath": "\/NerdBlogCSS\/IMG_0860.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/NerdBlogCSS\/IMG_0861.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.25402e+06,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/IMG_0861.JPG",
-		"outputAbbreviatedPath": "\/NerdBlogCSS\/IMG_0861.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

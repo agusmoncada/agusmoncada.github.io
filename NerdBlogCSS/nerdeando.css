@@ -146,7 +146,8 @@ hr {
   background-color: pink;
   background-image: url(DesktopHD2.png);
   background-size: cover;
-  background-position: center;
+  background-position:center;
+  background-attachment: fixed;
 }
 
 .topButton {
