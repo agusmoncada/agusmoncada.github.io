@@ -313,6 +313,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/NerdBlogCSS\/ECB_NY_89t.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240555,
+		"inputAbbreviatedPath": "\/NerdBlogCSS\/ECB_NY_89t.png",
+		"outputAbbreviatedPath": "\/NerdBlogCSS\/ECB_NY_89t.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/NerdBlogCSS\/nerdeando.css": {
 		"fileType": 16,
 		"ignore": 0,
