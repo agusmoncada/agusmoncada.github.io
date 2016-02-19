@@ -324,6 +324,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/NerdBlogCSS\/LogoNerdeando.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43710,
+		"inputAbbreviatedPath": "\/NerdBlogCSS\/LogoNerdeando.png",
+		"outputAbbreviatedPath": "\/NerdBlogCSS\/LogoNerdeando.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/NerdBlogCSS\/nerdeando.css": {
 		"fileType": 16,
 		"ignore": 0,
