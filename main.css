@@ -22,6 +22,15 @@ a {
     background: #FFBE22;
 }
 
+@font-face {
+  font-family: 'Questa';
+  src: url(fonts/2-questa_grande_regular_31-webfont.woff);
+}
+@font-face {
+  font-family: 'Didot';
+  src: url(fonts/HenriDidot.otf);
+}
+
 /* Home section */
 
 .home {
@@ -356,6 +365,8 @@ header .wrap .youtube {
 
 .info a {
     margin: auto 100px auto;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .map {
@@ -363,18 +374,25 @@ header .wrap .youtube {
     height: 300px;
     border-radius: 50%;
     border: 5px solid #F7F7F7;
-    box-shadow: inset 0 0 10px #000000;
-    background-image: url(img/maps.jpg);
     background-position: center;
     background-size: 500px;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    background:#ccc;
+    opacity:0.99;
+}
+.map img {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  transform: scale(1.2);
 }
 
-.map:hover {
+.map img:hover {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-size: 650px;
+    transform: scale(2);
 }
 
 /* Reuniones Cartel section */
@@ -426,10 +444,10 @@ header .wrap .youtube {
 }
 
 .tlContainer p {
-    font-family: 'Old Standard TT', serif;
-    font-size: 21px;
+    font-family: 'Questa', serif;
+    font-size: 23px;
     font-weight: 300;
-    color: #2D2D2D;
+    color: #000000;
     text-align: center;
     margin: auto 0;
 }
@@ -650,8 +668,8 @@ video {
 
 .miembros p {
     width: 100%;
-    font-family: 'Old Standard TT', serif;
-    font-size: 30px;
+    font-family: 'Questa', serif;
+    font-size: 32px;
     color: #3C3C3C;
     text-align: center;
     margin: auto 0;

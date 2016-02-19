@@ -222,16 +222,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/maps.jpg": {
-		"fileType": 16384,
+	"\/img\/maps.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 277929,
-		"inputAbbreviatedPath": "\/img\/maps.jpg",
-		"outputAbbreviatedPath": "\/img\/maps.jpg",
+		"initialSize": 1.93102e+06,
+		"inputAbbreviatedPath": "\/img\/maps.png",
+		"outputAbbreviatedPath": "\/img\/maps.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/reuniongeneral.png": {
 		"fileType": 32768,
