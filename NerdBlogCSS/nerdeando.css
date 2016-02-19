@@ -68,7 +68,7 @@ h2 {
 
 .text--container {
   position: relative;
-  height: 2700px;
+  height: 2550px;
   margin: 570px 0 0px 0;
   width: 100%;
   display: -webkit-box;
@@ -102,6 +102,7 @@ h3 {
 .titulo--container {
   width: 800px;
   margin: 0 auto;
+  font-weight: 300;
 }
 
 p {
@@ -119,11 +120,14 @@ article {
 
 .celu {
   margin-top: 20px;
-  height: 500px;
+  margin-bottom: 0px;
+  height: 550px;
 }
 
 .celu2 {
   height: 550px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 hr {
@@ -135,16 +139,16 @@ hr {
 }
 
 .segundo--titulo p{
-  width: 160px;
+  width: 130px;
   margin-top: 60px;
 }
 
 .phone--image {
   width: 100vw;
-  height: 500px;
+  height: 400px;
   margin: 0;
   background-color: pink;
-  background-image: url(DesktopHD2.png);
+  background-image: url(agusmoncada0.png);
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
@@ -168,6 +172,12 @@ hr {
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
+}
+
+.topButton:hover {
+    -webkit-box-shadow: 1px 1px 26px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 26px -14px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 26px -14px rgba(0,0,0,0.75);
 }
 
 .topButton p {

@@ -302,6 +302,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/NerdBlogCSS\/agusmoncada0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222838,
+		"inputAbbreviatedPath": "\/NerdBlogCSS\/agusmoncada0.png",
+		"outputAbbreviatedPath": "\/NerdBlogCSS\/agusmoncada0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/NerdBlogCSS\/DesktopHD2.png": {
 		"fileType": 32768,
 		"ignore": 0,
