@@ -68,7 +68,7 @@ h2 {
 
 .text--container {
   position: relative;
-  height: 1000px;
+  height: 2700px;
   margin: 570px 0 0px 0;
   width: 100%;
   display: -webkit-box;
@@ -95,7 +95,8 @@ h3, p, article {
 }
 
 h3 {
-  margin: 0px 0 20px 70px;
+
+  margin: 0px auto 20px 70px;
 }
 
 .titulo--container {
@@ -104,7 +105,7 @@ h3 {
 }
 
 p {
-  width: 100px;
+  width: 120px;
   padding: 10px;
   color: #F6F7F8;
   background-color: #EB298E;
@@ -112,8 +113,40 @@ p {
 
 article {
   width: 800px;
-  height: 600px;
-  margin: 0 auto;
+  height: 480px;
+  margin: 20px auto 0;
+}
+
+.celu {
+  margin-top: 20px;
+  height: 500px;
+}
+
+.celu2 {
+  height: 550px;
+}
+
+hr {
+  width: 800px;
+  height: 5px;
+  background-color: #E9E9E9;
+  border-radius: 50px;
+  border: none;
+}
+
+.segundo--titulo p{
+  width: 160px;
+  margin-top: 60px;
+}
+
+.phone--image {
+  width: 100vw;
+  height: 500px;
+  margin: 0;
+  background-color: pink;
+  background-image: url(DesktopHD2.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .topButton {
