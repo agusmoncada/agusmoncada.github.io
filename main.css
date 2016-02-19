@@ -26,10 +26,6 @@ a {
   font-family: 'Questa';
   src: url(fonts/2-questa_grande_regular_31-webfont.woff);
 }
-@font-face {
-  font-family: 'Didot';
-  src: url(fonts/HenriDidot.otf);
-}
 
 /* Home section */
 
