@@ -60,7 +60,8 @@ a {
 
 header {
     position: absolute;
-    width: 100%;
+    min-width: 800px;
+    width: 100vw;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -80,14 +81,18 @@ header {
 }
 
 .logoIgle {
+  position: absolute;
     width: 50px;
     height: 37px;
     background-image: url(icons/Oval%202%20+%20Path%201%20+%20Path%202%20+%20Path%203.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin: auto 0;
-    margin-right: 41vw;
-    margin-left: 10px;
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+    margin-top: -36vh;
+    margin-left: -40vw;
 }
 
 header .wrap {
@@ -125,7 +130,7 @@ header .wrap a {
 
 header .wrap a p {
     font-family: "Lato", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17px;
     text-align: center;
     padding-top: 19px;
@@ -145,7 +150,7 @@ header .wrap .twitter {
 }
 
 header .wrap .facebook p {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 23px;
     margin-top: 12px;
 }
@@ -228,16 +233,16 @@ header .wrap .youtube {
 }
 
 .arrow:hover {
-    -webkit-animation: bounce 1.5s;
-    animation: bounce 1.5s;
+    -webkit-animation: bounce 1.7s infinite;
+    animation: bounce 1.7s infinite;
 }
 
 @-webkit-keyframes bounce {
         0%{ margin-top: 970px; }
-        10%{ margin-top: 960px; }
-        25%{ margin-top: 981px; }
-        50%{ margin-top: 970px; }
-        75%{ margin-top: 977px; }
+        10%{ margin-top: 940px; }
+        25%{ margin-top: 999px; }
+        50%{ margin-top: 960px; }
+        75%{ margin-top: 979px; }
         100%{ margin-top: 970px; }
 }
 
@@ -542,12 +547,12 @@ header .wrap .youtube {
     height: 30px;
     text-align: center;
     font-family: "Lato", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     color: #757575;
     margin: 16px auto 14px;
     padding: 6px 8px 3px;
-    border: 1px solid #757575;
+    border: 2px solid #757575;
     border-radius: 0px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -555,7 +560,7 @@ header .wrap .youtube {
 }
 
 .card p:hover {
-    border: 1px solid #2D2D2D;
+    border: 2px solid #2D2D2D;
     color:#2D2D2D;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -812,25 +817,30 @@ video {
 }
 
 .logoIgleSegundo {
+    position: absolute;
     width: 80px;
     height: 60px;
     background-image: url(icons/Oval%202%20+%20Path%201%20+%20Path%202%20+%20Path%203.svg);
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto 0;
-    margin-left: 600px;
-    margin-right: 20px;
+    margin-left: 54vw;
+    margin-top: 80px;
 }
 
 /* Media Queries*/
 
-@media (max-width: 1160px) {
-    .logoIgle {
-        margin-right: 36vw;
-    }
+@media (min-width: 1440px) {
 
     .logoIgleSegundo {
-        margin-left: 450px;
+        margin-left: 62vw;
+    }
+}
+
+@media (max-width: 1200) {
+
+    .logoIgleSegundo {
+      margin-left: 49vw;
     }
 }
 
@@ -1088,6 +1098,36 @@ video {
 
   .list-modifier li {
     font-weight: 300;
+  }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .title h1 {
+      font-weight: 100;
+    }
+
+  .card p {
+      font-weight: 300;
+      border: 1px solid #757575;
+  }
+
+  .card p:hover {
+      border: 1px solid #2D2D2D;
+      color:#2D2D2D;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+  }
+
+  header .wrap a p {
+      font-weight: 300;
   }
 
 }
