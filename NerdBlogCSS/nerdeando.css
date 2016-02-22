@@ -88,6 +88,12 @@ h2 {
   background-color: #F6F7F8;
 }
 
+.text--container a {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
 h3, p, article {
   font-family: 'Lato', serif;
   font-size: 20px;
@@ -183,12 +189,13 @@ hr {
 }
 
 .topButton p {
-  width: 10px;
+  width: 14px;
   color: #F6F7F8;
   background-color: #000000;
   margin: auto 0;
-  padding-right: 12px;
+  text-align: center;
 }
+
 
 .social--media {
   position: absolute;
@@ -200,6 +207,11 @@ hr {
   justify-content: center;
   align-content: center;
   flex-flow: wrap;
+}
+
+.social--media a {
+  display: flex;
+  margin: auto 0;
 }
 
 .social--content {
@@ -237,7 +249,7 @@ hr {
 .social--content p:hover {
   color: white;
   -webkit-animation: fadein 1s;
-          animation: fadein 15s;
+          animation: fadein 1s;
 }
 
 @keyframes fadein {
