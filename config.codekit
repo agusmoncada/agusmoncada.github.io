@@ -46,28 +46,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/icons\/Reunion gral.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53848,
-		"inputAbbreviatedPath": "\/icons\/Reunion gral.png",
-		"outputAbbreviatedPath": "\/icons\/Reunion gral.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/icons\/Triangle 1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 538,
-		"inputAbbreviatedPath": "\/icons\/Triangle 1.png",
-		"outputAbbreviatedPath": "\/icons\/Triangle 1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/icons\/Twitter_logo_white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -75,6 +53,17 @@
 		"initialSize": 21602,
 		"inputAbbreviatedPath": "\/icons\/Twitter_logo_white.png",
 		"outputAbbreviatedPath": "\/icons\/Twitter_logo_white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/icons\/youTube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 276,
+		"inputAbbreviatedPath": "\/icons\/youTube.png",
+		"outputAbbreviatedPath": "\/icons\/youTube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -226,7 +215,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.93102e+06,
+		"initialSize": 542932,
 		"inputAbbreviatedPath": "\/img\/maps.png",
 		"outputAbbreviatedPath": "\/img\/maps.png",
 		"outputPathIsOutsideProject": 0,
@@ -237,12 +226,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 406863,
+		"initialSize": 68229,
 		"inputAbbreviatedPath": "\/img\/reuniongeneral.png",
 		"outputAbbreviatedPath": "\/img\/reuniongeneral.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/section5_50.png": {
 		"fileType": 32768,

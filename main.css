@@ -164,7 +164,7 @@ header .wrap .mn p {
 
 header .wrap .youtube {
     width: 17px;
-    background-image: url(icons/Triangle%201.png);
+    background-image: url(icons/youTube.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -381,6 +381,7 @@ header .wrap .youtube {
     background:#ccc;
     opacity:0.99;
 }
+
 .map img {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
