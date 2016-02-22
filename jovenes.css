@@ -171,6 +171,8 @@ a {
 .grid {
   height: 100%;
   width: 25%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .grid1 {
