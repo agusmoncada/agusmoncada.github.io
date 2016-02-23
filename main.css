@@ -388,13 +388,15 @@ header .wrap .youtube {
   height: 100%;
   width: 100%;
   border-radius: 100%;
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .map img:hover {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    transform: scale(2);
+    -webkit-transform: scale(2);
+            transform: scale(2);
 }
 
 /* Reuniones Cartel section */
@@ -553,15 +555,11 @@ header .wrap .youtube {
     color: #757575;
     margin: 16px auto 14px;
     padding: 6px 8px 3px;
-    border: 2px solid #757575;
-    border-radius: 0px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    border-radius: 5px;
 }
 
 .card p:hover {
-    border: 2px solid #2D2D2D;
     color:#2D2D2D;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -732,8 +730,13 @@ video {
   text-align: center;
   vertical-align: middle;
   font-family: 'lato', serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
+  color: #757575;
+}
+
+.info--Card p:hover {
+  color: #000000;
 }
 
 .musicImg {
@@ -870,6 +873,10 @@ video {
     display: none;
   }
 
+  .logoIgle {
+    display: none;
+  }
+
   .title {
     position: relative;
     -webkit-transform: none;
@@ -886,6 +893,11 @@ video {
     -webkit-transform: none;
     transform: none;
     margin-top: 40px;
+  }
+
+  .arrow:hover {
+      -webkit-animation: bounce 0s infinite;
+      animation: bounce 0s infinite;
   }
 
   .about {
@@ -992,7 +1004,6 @@ video {
   .card p {
     margin: 9px auto;
     color: #2D2D2D;
-    border: 1px solid #2D2D2D;
   }
 
   .cardImg {
@@ -1106,18 +1117,16 @@ video {
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
+only screen and (                -webkit-min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
   .card p {
       font-weight: 300;
-      border: 1px solid #757575;
   }
 
   .card p:hover {
-      border: 1px solid #2D2D2D;
       color:#2D2D2D;
       -webkit-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
@@ -1125,6 +1134,10 @@ only screen and (                min-resolution: 2dppx) {
 
   header .wrap a p {
       font-weight: 300;
+  }
+
+  .info--Card p {
+    font-weight: 300;
   }
 
 }

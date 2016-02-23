@@ -9,9 +9,13 @@ a {
     text-decoration: none;
 }
 
-@@font-face {
+@font-face {
   font-family: 'Didot';
   src: url(fonts/HenriDidot.otf);
+}
+
+.first--index {
+  z-index: 1;
 }
 
 .header {
@@ -153,11 +157,13 @@ hr {
   width: 100vw;
   height: 370px;
   margin: 0;
-  background-color: pink;
-  background-image: url(agusmoncada0.png);
-  background-size: cover;
-  background-position:center;
+  position: relative;
+  overflow: hidden;
+  background: url(agusmoncada0.png) no-repeat center center;
   background-attachment: fixed;
+  background-size: cover;
+  will-change: transform;
+  -webkit-transform:translatez(0);
 }
 
 .topButton {
@@ -183,7 +189,8 @@ hr {
 }
 
 .topButton:hover {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
@@ -203,13 +210,26 @@ hr {
   height: 200px;
   width: 100%;
   background-color: #55A0FF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-flow: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
 }
 
 .social--media a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: auto 0;
 }
@@ -223,9 +243,17 @@ hr {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   vertical-align: middle;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social--content:hover {
