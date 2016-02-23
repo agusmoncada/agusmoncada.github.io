@@ -39,6 +39,40 @@ a {
     overflow-y: scroll;
 }
 
+.scrollToTop--design {
+  position: fixed;
+  margin-top: calc(50vh - 35px);
+  margin-left: 90vw;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  z-index: 4;
+  border-radius: 50%;
+  border: 0px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.scrollToTop--design img {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  margin: 12px 0 0 0;
+  transform: rotate(180deg);
+}
+
+.fadein {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .backgrnd {
     position: absolute;
     background-image: url(img/IMG_0794_50__1453910038_152.168.99.2.jpg);
