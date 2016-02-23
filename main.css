@@ -820,33 +820,7 @@ video {
     margin-left: 0px;
 }
 
-.logoIgleSegundo {
-    position: absolute;
-    width: 80px;
-    height: 60px;
-    background-image: url(icons/oval.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto 0;
-    margin-left: 54vw;
-    margin-top: 80px;
-}
-
 /* Media Queries*/
-
-@media (min-width: 1440px) {
-
-    .logoIgleSegundo {
-        margin-left: 62vw;
-    }
-}
-
-@media (max-width: 1200) {
-
-    .logoIgleSegundo {
-      margin-left: 49vw;
-    }
-}
 
 @media (max-width: 540px) {
 
@@ -1097,10 +1071,6 @@ video {
   .deptos, .contacto {
     margin: 30px auto auto 0px;
     width: 200px;
-  }
-
-  .logoIgleSegundo {
-    display: none;
   }
 
   .list-modifier p {
