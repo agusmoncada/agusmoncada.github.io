@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	$('.home').scroll(function(){
-		if ($(this).scrollTop() > 1530) {
+		if ($(this).scrollTop() > 1430) {
 			$('.scrollToTop').addClass( 'fadein' );
 		} else {
 			$('.scrollToTop').removeClass( 'fadein' );
@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     $('html, body, .home').animate({
       scrollTop: $(linkHrer).offset().top
-    }, 1100);
+    }, 1000);
 
     e.preventDefault();
   });
