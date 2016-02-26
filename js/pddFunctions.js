@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 
 	$('.home').scroll(function(){
@@ -9,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	$('.scrollToTop').click(function(){
-		$('html, body, .home').animate({scrollTop : 0},700);
+		$('body, .home').animate({scrollTop : 0},700);
 		return false;
 	});
 

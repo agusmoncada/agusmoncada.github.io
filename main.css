@@ -65,6 +65,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   box-shadow: 1px 1px 26px -14px rgba(0,0,0,0.80);
+
 }
 
 .scrollToTop--design:hover {
@@ -88,6 +89,7 @@ a {
           transform: scale(1);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  visibility: visible;
 }
 
 .backgrnd {
