@@ -1010,12 +1010,9 @@ video {
   }
 
   .tlContainer p {
-      font-family: 'Old Standard TT', serif;
       font-size: 27px;
-      font-weight: 300;
       color: #2D2D2D;
       text-align: center;
-      margin: auto 0;
       margin-top: 3px;
   }
 
