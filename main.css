@@ -65,7 +65,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   box-shadow: 1px 1px 26px -14px rgba(0,0,0,0.80);
-
 }
 
 .scrollToTop--design:hover {
@@ -722,6 +721,7 @@ video {
 .miembros p {
     width: 100%;
     font-family: 'Questa', serif;
+    font-weight: 300;
     font-size: 32px;
     color: #3C3C3C;
     text-align: center;
@@ -888,6 +888,11 @@ video {
     -webkit-overflow-scrolling: touch;
   }
 
+  .fadein {
+    transform: scale(0);
+    visibility: hidden;
+  }
+
   .backgrnd {
     position: relative;
     -webkit-transform: none;
@@ -1010,6 +1015,7 @@ video {
       color: #2D2D2D;
       text-align: center;
       margin: auto 0;
+      margin-top: 3px;
   }
 
   .aReuniones {
@@ -1063,7 +1069,7 @@ video {
 
   .miembros {
     margin: -50px auto 160px;
-    border: 2px solid #3C3C3C;
+    border: 2px solid #2D2D2D;
     width: 240px;
     padding: 7px;
 }
@@ -1098,6 +1104,10 @@ video {
 
   .info--Card {
     margin: 0;
+  }
+
+  .info--Card p {
+    color: #000000;
   }
 
   .footer {
