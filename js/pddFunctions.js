@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 	$('.home').scroll(function(){
-		if ($(this).scrollTop() > 1430) {
+		if ($(this).scrollTop() > 1500) {
 			$('.scrollToTop').addClass( 'fadein' );
 		} else {
 			$('.scrollToTop').removeClass( 'fadein' );

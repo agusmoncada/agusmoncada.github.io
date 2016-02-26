@@ -64,7 +64,7 @@ a {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  box-shadow: 1px 1px 30px -10px rgba(0,0,0,0.90);
+  box-shadow: 1px 1px 33px -9px rgba(0,0,0,0.9);
 }
 
 .scrollToTop--design:hover {
@@ -621,6 +621,7 @@ header .wrap .youtube {
     width: 180px;
     height: 180px;
     margin: 0 auto;
+    margin-top: 20px;
     box-sizing: border-box;
     border: 90px solid rgba(0,0,0,0.2);
     border-radius: 50%;
@@ -1156,7 +1157,7 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
   .scrollToTop--design {
-    box-shadow: 1px 1px 26px -12px rgba(0,0,0,0.80);
+    box-shadow: 1px 1px 29px -12px rgba(0,0,0,0.80);
   }
 
   .card p {
