@@ -222,3 +222,39 @@ a {
   background-position: center;
   background-size: cover;
 }
+
+@media (max-width: 540px) {
+
+  .backButton {
+    margin-top: calc(90vh - 35px);
+    margin-left: calc(90vw - 35px);
+  }
+
+  .imgHeader {
+    height: 500px;
+  }
+
+  .imgHeader p {
+    font-size: 90px;
+  }
+
+  .infoContainer {
+    width: 300px;
+  }
+
+  .info p:nth-child(1) {
+    width: 300px;
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .info p:nth-child(2){
+      font-size: 20px;
+      font-weight: 300;
+  }
+
+  .reuContainer p:nth-child(n+2) {
+      font-weight: 300;
+  }
+
+}

@@ -1136,15 +1136,16 @@ video {
   .deptos, .contacto {
     margin: 30px auto auto 0px;
     width: 200px;
+
   }
 
   .list-modifier p {
     float: left;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .list-modifier li {
-    font-weight: 300;
+    font-weight: 400;
   }
 
 }
@@ -1180,7 +1181,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   .list-modifier li {
-      font-weight: 100;
+      font-weight: 300;
   }
 
 }
