@@ -1126,6 +1126,17 @@ only screen and (                min-resolution: 2dppx) {
     height: 31vh;
   }
 
+  button {
+    position: absolute;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+    margin-top: calc(-22vw - 50px);
+    z-index: 20;
+  }
+
   .newMembers {
     position: relative;
     margin-top: 0px;
