@@ -19,18 +19,15 @@ $(document).ready(function(){
     var scrollWork = scrolledTop - 8000;
 
     if ($window.scrollTop() > -1) {
-      $titleScroll.css({'transform': 'translate(-' + scrolledTop + 'px, 0px)', 'opacity': opacity});
+      $titleScroll.css({'transform': 'translate3d(-' + scrolledTop + 'px, 0px, 0px)', 'opacity': opacity});
 
       $paragraph.css({'opacity': -opacity2});
   }
-
-    console.log($window.scrollTop());
-
-
+  
     if (scrolledTop >= 8400) {
       $whiteWork.addClass('in-view');
       $workScroll.css({'opacity': opacity3});
-      $workContainer.css({'transform': 'translate(-' + scrollWork + 'px, 0px)'});
+      $workContainer.css({'transform': 'translate3d(-' + scrollWork + 'px, 0px, 0px)'});
     } else {
       $whiteWork.removeClass('in-view');
     }
