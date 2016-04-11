@@ -2,247 +2,60 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
-	"\/icons\/book_icon_black_background_vector_280790.png": {
+	"\/function.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/function.js",
+		"outputAbbreviatedPath": "\/min\/function-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/img1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 29931,
-		"inputAbbreviatedPath": "\/icons\/book_icon_black_background_vector_280790.png",
-		"outputAbbreviatedPath": "\/icons\/book_icon_black_background_vector_280790.png",
+		"initialSize": 2.1067e+06,
+		"inputAbbreviatedPath": "\/images\/img1.png",
+		"outputAbbreviatedPath": "\/images\/img1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/icons\/info.png": {
+	"\/images\/img2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13388,
-		"inputAbbreviatedPath": "\/icons\/info.png",
-		"outputAbbreviatedPath": "\/icons\/info.png",
+		"initialSize": 4.50248e+06,
+		"inputAbbreviatedPath": "\/images\/img2.png",
+		"outputAbbreviatedPath": "\/images\/img2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/icons\/music.png": {
+	"\/images\/img3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15104,
-		"inputAbbreviatedPath": "\/icons\/music.png",
-		"outputAbbreviatedPath": "\/icons\/music.png",
+		"initialSize": 2.08327e+06,
+		"inputAbbreviatedPath": "\/images\/img3.png",
+		"outputAbbreviatedPath": "\/images\/img3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/icons\/Rectangle 1 + Oval 2 + Path 1 + Path 2 + Path 3.png": {
+	"\/images\/img4.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31762,
-		"inputAbbreviatedPath": "\/icons\/Rectangle 1 + Oval 2 + Path 1 + Path 2 + Path 3.png",
-		"outputAbbreviatedPath": "\/icons\/Rectangle 1 + Oval 2 + Path 1 + Path 2 + Path 3.png",
+		"initialSize": 2.58471e+06,
+		"inputAbbreviatedPath": "\/images\/img4.png",
+		"outputAbbreviatedPath": "\/images\/img4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/icons\/Twitter_logo_white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21602,
-		"inputAbbreviatedPath": "\/icons\/Twitter_logo_white.png",
-		"outputAbbreviatedPath": "\/icons\/Twitter_logo_white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/icons\/youTube.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 276,
-		"inputAbbreviatedPath": "\/icons\/youTube.png",
-		"outputAbbreviatedPath": "\/icons\/youTube.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/11045393_789327607857015_8345691211337868399_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 137691,
-		"inputAbbreviatedPath": "\/img\/11045393_789327607857015_8345691211337868399_n.jpg",
-		"outputAbbreviatedPath": "\/img\/11045393_789327607857015_8345691211337868399_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/12274388_789325884523854_6828311302711066663_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45650,
-		"inputAbbreviatedPath": "\/img\/12274388_789325884523854_6828311302711066663_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12274388_789325884523854_6828311302711066663_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12289468_789326054523837_2643705581201932519_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 55495,
-		"inputAbbreviatedPath": "\/img\/12289468_789326054523837_2643705581201932519_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12289468_789326054523837_2643705581201932519_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12295525_789327067857069_8182509260414740700_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61618,
-		"inputAbbreviatedPath": "\/img\/12295525_789327067857069_8182509260414740700_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12295525_789327067857069_8182509260414740700_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12308634_789326687857107_986609377723837112_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57211,
-		"inputAbbreviatedPath": "\/img\/12308634_789326687857107_986609377723837112_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12308634_789326687857107_986609377723837112_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12310475_789327254523717_1583081064947132021_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 76433,
-		"inputAbbreviatedPath": "\/img\/12310475_789327254523717_1583081064947132021_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12310475_789327254523717_1583081064947132021_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12311036_789327164523726_2188730738994578418_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 49655,
-		"inputAbbreviatedPath": "\/img\/12311036_789327164523726_2188730738994578418_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12311036_789327164523726_2188730738994578418_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12313560_789326277857148_423821739181979271_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61451,
-		"inputAbbreviatedPath": "\/img\/12313560_789326277857148_423821739181979271_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12313560_789326277857148_423821739181979271_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12341048_789327337857042_6918271596830975844_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 70960,
-		"inputAbbreviatedPath": "\/img\/12341048_789327337857042_6918271596830975844_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12341048_789327337857042_6918271596830975844_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/12341048_789327457857030_2257271762954011821_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 48827,
-		"inputAbbreviatedPath": "\/img\/12341048_789327457857030_2257271762954011821_n.jpg",
-		"outputAbbreviatedPath": "\/img\/12341048_789327457857030_2257271762954011821_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/IMG_0090__1453909662_152.168.99.2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 627412,
-		"inputAbbreviatedPath": "\/img\/IMG_0090__1453909662_152.168.99.2.jpg",
-		"outputAbbreviatedPath": "\/img\/IMG_0090__1453909662_152.168.99.2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/IMG_0794_50__1453910038_152.168.99.2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 191160,
-		"inputAbbreviatedPath": "\/img\/IMG_0794_50__1453910038_152.168.99.2.jpg",
-		"outputAbbreviatedPath": "\/img\/IMG_0794_50__1453910038_152.168.99.2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/IMG_0844.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 141043,
-		"inputAbbreviatedPath": "\/img\/IMG_0844.JPG",
-		"outputAbbreviatedPath": "\/img\/IMG_0844.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/maps.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 542932,
-		"inputAbbreviatedPath": "\/img\/maps.png",
-		"outputAbbreviatedPath": "\/img\/maps.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/reuniongeneral.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 68229,
-		"inputAbbreviatedPath": "\/img\/reuniongeneral.png",
-		"outputAbbreviatedPath": "\/img\/reuniongeneral.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/section5_50.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 542887,
-		"inputAbbreviatedPath": "\/img\/section5_50.png",
-		"outputAbbreviatedPath": "\/img\/section5_50.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -253,186 +66,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/jovenes.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jovenes.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/jovenes.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jovenes.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/function.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/js\/function.js",
-		"outputAbbreviatedPath": "\/js\/min\/function-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
-		},
-	"\/js\/min\/pddFunctions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/pddFunctions-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/pddFunctions-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/pddFunctions.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/pddFunctions.js",
-		"outputAbbreviatedPath": "\/js\/min\/pddFunctions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/NerdBlogCSS\/agusmoncada0.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 222838,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/agusmoncada0.png",
-		"outputAbbreviatedPath": "\/NerdBlogCSS\/agusmoncada0.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/NerdBlogCSS\/ECB_NY_89t.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 240555,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/ECB_NY_89t.png",
-		"outputAbbreviatedPath": "\/NerdBlogCSS\/ECB_NY_89t.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/NerdBlogCSS\/LogoNerdeando.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43710,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/LogoNerdeando.png",
-		"outputAbbreviatedPath": "\/NerdBlogCSS\/LogoNerdeando.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/NerdBlogCSS\/nerdeando.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/NerdBlogCSS\/nerdeando.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/nerdeando.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/nerdeando.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/ScrollRight\/function.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ScrollRight\/function.js",
-		"outputAbbreviatedPath": "\/ScrollRight\/min\/function-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/ScrollRight\/images\/img1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.5015e+06,
-		"inputAbbreviatedPath": "\/ScrollRight\/images\/img1.png",
-		"outputAbbreviatedPath": "\/ScrollRight\/images\/img1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/ScrollRight\/images\/img2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.26926e+06,
-		"inputAbbreviatedPath": "\/ScrollRight\/images\/img2.png",
-		"outputAbbreviatedPath": "\/ScrollRight\/images\/img2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/ScrollRight\/images\/img3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.63565e+06,
-		"inputAbbreviatedPath": "\/ScrollRight\/images\/img3.png",
-		"outputAbbreviatedPath": "\/ScrollRight\/images\/img3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/ScrollRight\/images\/img4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 664332,
-		"inputAbbreviatedPath": "\/ScrollRight\/images\/img4.png",
-		"outputAbbreviatedPath": "\/ScrollRight\/images\/img4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/ScrollRight\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ScrollRight\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/ScrollRight\/main.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ScrollRight\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -445,9 +83,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "agusmoncada.github.io",
+	"displayValue": "ScrollRight",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "harddrive_gray"
+	"iconImageName": "pencil_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -1045,8 +683,8 @@
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
-	"shouldRunAutoprefixer": 1,
-	"shouldRunBless": 1,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",

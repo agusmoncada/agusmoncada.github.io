@@ -1,0 +1,194 @@
+/* First */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* First */
+
+.rScroll {
+  width: 100%;
+  height: calc(103vh + 3300px);
+  background: black;
+}
+
+.titleScroll {
+  width: 2900px;
+  height: 100vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: fixed;
+  opacity: 1;
+  z-index: 3;
+}
+
+.titleScroll p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 400px;
+  margin: auto 0;
+  width: 100%;
+  font-weight: 700;
+}
+
+.textScrollUp {
+  width: 100%;
+  height: 1400px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  margin-top: 700px;
+  position: absolute;
+}
+
+.textScrollUp p {
+  width: 600px;
+  height: 1300px;
+  margin: auto 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+}
+
+.whiteWork {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  margin-top: 2100px;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+.whiteWork p {
+  margin: auto 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 400px;
+  color: black;
+  font-weight: 700;
+}
+
+.whiteWork.in-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  margin: 0;
+}
+
+.workContainer {
+  margin-top: 1.52%;
+  margin-left: 100vw;
+  position: absolute;
+  height: 95vh;
+  width: 4000px;
+  -webkit-transform: translate(50px, 0px);
+          transform: translate(50px, 0px);
+  z-index: 22;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+.eachWork {
+  height: 100%;
+  width: 950px;
+  margin-right: 50px;
+}
+
+.workContainer:nth-child(4) {
+  margin-right: 0px;
+}
+
+.imageWork {
+  height: 96%;
+  width: 100%;
+}
+
+.imageWork1 {
+  background-image: url(images/img1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imageWork2 {
+  background-image: url(images/img2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.imageWork3 {
+  background-image: url(images/img3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.imageWork4 {
+  background-image: url(images/img4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eachWork p {
+  font-size: 15px;
+  height: 4%;
+  width: 200px;
+  text-align: left;
+  margin: 0;
+}
+
+
+
+
+
+
+/* First */
+/* First */
+/* First */
+/* First */
+/* First */
