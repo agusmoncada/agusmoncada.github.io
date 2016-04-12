@@ -149,11 +149,9 @@ html, body {
   width: 100%;
 }
 
-.imageWork1 {
-  background-image: url(images/img1.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.eachWork video {
+  width: 100%;
+  background: rgba(255, 225, 35, 0.5);
 }
 
 .imageWork2 {

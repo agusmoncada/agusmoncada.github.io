@@ -13,17 +13,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/images\/img1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.1067e+06,
-		"inputAbbreviatedPath": "\/images\/img1.png",
-		"outputAbbreviatedPath": "\/images\/img1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/img2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -33,18 +22,18 @@
 		"outputAbbreviatedPath": "\/images\/img2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/img3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.08327e+06,
+		"initialSize": 6.15334e+06,
 		"inputAbbreviatedPath": "\/images\/img3.png",
 		"outputAbbreviatedPath": "\/images\/img3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/img4.png": {
 		"fileType": 32768,
@@ -55,7 +44,7 @@
 		"outputAbbreviatedPath": "\/images\/img4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,

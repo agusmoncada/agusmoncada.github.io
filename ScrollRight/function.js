@@ -23,7 +23,7 @@ $(document).ready(function(){
 
       $paragraph.css({'opacity': -opacity2});
   }
-  
+
     if (scrolledTop >= 8400) {
       $whiteWork.addClass('in-view');
       $workScroll.css({'opacity': opacity3});
