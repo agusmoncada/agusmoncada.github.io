@@ -12,6 +12,63 @@ html, body {
   width: 100%;
   height: calc(103vh + 3300px);
   background: black;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background-image: url(images/logo.svg);
+  background-size: contain;
+  z-index: 4;
+  margin: 20px;
+}
+
+.socialMedia {
+  position: fixed;
+  z-index: 4;
+  margin-top: 93vh;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-left: 20px;
+}
+
+.logo.stick {
+  z-index: 4;
+  margin: 20px;
+  position: fixed;
+}
+
+.socialMedia.stick {
+  position: fixed;
+  z-index: 4;
+  margin-top: 93vh;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialMedia p {
+  margin-right: 10px;
+  width: 80px;
+  color: white;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.twitter {
+  margin-right: 0px;
+}
+
+.socialMedia a:hover {
+  text-decoration: underline;
 }
 
 .titleScroll {
@@ -91,6 +148,7 @@ html, body {
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
+  overflow-x: hidden;
 }
 
 .whiteWork p {

@@ -375,6 +375,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/ScrollRight\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2627,
+		"inputAbbreviatedPath": "\/ScrollRight\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/ScrollRight\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/ScrollRight\/images\/img2.png": {
 		"fileType": 32768,
 		"ignore": 0,
