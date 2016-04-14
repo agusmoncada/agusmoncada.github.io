@@ -116,19 +116,94 @@ html, body {
   -webkit-align-content: center;
       -ms-flex-line-pack: center;
           align-content: center;
-  margin-top: 700px;
+  flex-flow: column;
+  margin-top: 600px;
   position: absolute;
 }
 
 .textScrollUp p {
   width: 600px;
-  height: 1300px;
-  margin: auto 0;
+  height: 1000px;
+  margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 300;
   text-align: left;
   color: white;
+
+}
+
+.capaContainer {
+  margin: 0 auto;
+  width: 550px;
+  height: 400px;
+}
+
+.capaContainer p {
+  width: 100%;
+  height: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 20px 0px 10px 0px;
+  text-align: left;
+  display: block;
+}
+
+.capaContainer span {
+  width: 5px;
+  height: 5px;
+  background: white;
+  display: block;
+  transition: all 300ms ease-out
+}
+
+.element1.in-view {
+  animation-name: element1;
+  animation-duration: 600ms;
+  animation-timing-function: ease-out;
+  width: 300px;
+}
+
+@keyframes element1 {
+  0% {width: 50px;}
+  100% {width: 300px;}
+}
+
+.element2.in-view {
+  animation-name: element2;
+  animation-duration: 600ms;
+  animation-timing-function: ease-out;
+  width: 500px;
+}
+
+@keyframes element2 {
+  0% {width: 50px;}
+  100% {width: 500px;}
+}
+
+.element3.in-view {
+  animation-name: element3;
+  animation-duration: 600ms;
+  animation-timing-function: ease-out;
+  width: 400px;
+}
+
+@keyframes element3 {
+  0% {width: 50px;}
+  100% {width: 400px;}
+}
+
+.element4.in-view {
+  animation-name: element4;
+  animation-duration: 600ms;
+  animation-timing-function: ease-out;
+  width: 450px;
+}
+
+@keyframes element4 {
+  0% {width: 50px;}
+  100% {width: 450px;}
 }
 
 .whiteWork {

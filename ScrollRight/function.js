@@ -85,14 +85,15 @@ $(document).ready(function(){
   var $window = $(window);
 
   function chek_if_in_view() {
-    var window_height = window.height;
+    //var window_height = $window.height();
+    var window_height = window.innerHeight;
     var window_top_position = $window.scrollTop();
     var window_bottom_position = (window_height + window_top_position);
 
     $.each($animation_elements, function() {
       var $element = $(this);
       var element_height = $element.height();
-      var element_top_positon = ($element.offset().top + 1500);
+      var element_top_positon = ($element.offset().top + 200);
       var element_bottom_position = (element_height + element_top_positon);
 
       if ((element_bottom_position >= window_top_position) && (element_top_positon <= window_bottom_position)) {
