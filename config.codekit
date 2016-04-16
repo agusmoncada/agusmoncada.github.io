@@ -363,6 +363,50 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/ScrollRight\/images\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2627,
+		"inputAbbreviatedPath": "\/ScrollRight\/images\/favicon.png",
+		"outputAbbreviatedPath": "\/ScrollRight\/images\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ScrollRight\/images\/img2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18629e+06,
+		"inputAbbreviatedPath": "\/ScrollRight\/images\/img2.png",
+		"outputAbbreviatedPath": "\/ScrollRight\/images\/img2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ScrollRight\/images\/img3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.6358e+06,
+		"inputAbbreviatedPath": "\/ScrollRight\/images\/img3.png",
+		"outputAbbreviatedPath": "\/ScrollRight\/images\/img3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/ScrollRight\/images\/img4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 664332,
+		"inputAbbreviatedPath": "\/ScrollRight\/images\/img4.png",
+		"outputAbbreviatedPath": "\/ScrollRight\/images\/img4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
