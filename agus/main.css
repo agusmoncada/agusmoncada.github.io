@@ -64,8 +64,8 @@ html, body {
   width: 80px;
   color: white;
   text-align: left;
-  font-family: 'Lato', sans-serif;
-  font-size: 13px;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -139,8 +139,8 @@ html, body {
   width: 600px;
   height: 1000px;
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
-  font-size: 25px;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 24px;
   font-weight: 300;
   text-align: left;
   color: white;
@@ -156,10 +156,10 @@ html, body {
 .capaContainer p {
   width: 100%;
   height: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  margin: 20px 0px 10px 0px;
+  font-size: 18px;
+  margin: 22px 0px 2px 0px;
   text-align: left;
   display: block;
 }
@@ -323,12 +323,12 @@ html, body {
 }
 
 .eachWork p {
-  font-size: 15px;
+  font-size: 17px;
   height: 4%;
   width: 200px;
   text-align: left;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   font-weight: 300;
 }
 
