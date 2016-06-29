@@ -617,6 +617,10 @@ header .wrap .youtube {
     transition: all 0.2s ease-in-out;
 }
 
+.adolescentes p {
+  width: 110px;
+}
+
 .cardImg {
     width: 180px;
     height: 180px;
