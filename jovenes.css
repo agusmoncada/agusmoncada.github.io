@@ -73,7 +73,7 @@ a {
 
 .info {
     width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -97,20 +97,20 @@ a {
 
 .info p:nth-child(1){
     width: 500px;
-    font-size: 60px;
+    font-size: 63px;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
 .info p:nth-child(2){
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 100;
     margin-bottom: 20px;
 }
 
 .reuniones {
     width: 100%;
-    height: 350px;
+    height: 300px;
     background-color: #EBEBEB;
     display: flex;
     justify-content: center;
@@ -147,81 +147,39 @@ a {
     margin-top: 12px;
 }
 
-.photosGrid {
+.socialJovenes {
     width: 100%;
-    height:450px;
+    height: 180px;
     display: flex;
-    justify-content: center;
     align-content: center;
-    flex-flow: row wrap;
+    justify-content: center;
 }
 
-.row1 {
-  width: 100%;
-  height: 50%;
+.twitterJovenes, .facebookJovenes {
+  height: 70px;
+  width: 70px;
+  border: solid black 2px;
+  margin: auto 0;
+  border-radius: 50%;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.row2 {
-  width: 100%;
-  height: 50%;
-  display: flex;
+.facebookJovenes {
+  margin-left: 20px;
 }
 
-.grid {
-  height: 100%;
-  width: 25%;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+.twitterJovenes {
+
 }
 
-.grid1 {
-  background-image: url(img/12274388_789325884523854_6828311302711066663_n.jpg);
-  background-position: center;
-  background-size: cover;
+a {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
-.grid2 {
-  background-image: url(img/12289468_789326054523837_2643705581201932519_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.grid3 {
-  background-image: url(img/12295525_789327067857069_8182509260414740700_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.grid4 {
-  background-image: url(img/12341048_789327337857042_6918271596830975844_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.grid5 {
-  background-image: url(img/12308634_789326687857107_986609377723837112_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.grid6 {
-  background-image: url(img/12310475_789327254523717_1583081064947132021_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.grid7 {
-  background-image: url(img/12311036_789327164523726_2188730738994578418_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.grid8 {
-  background-image: url(img/12313560_789326277857148_423821739181979271_n.jpg);
-  background-position: center;
-  background-size: cover;
-}
 
 @media (max-width: 540px) {
 

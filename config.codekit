@@ -86,6 +86,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/icons\/facebook-flat-vector-logo-400x400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3213,
+		"inputAbbreviatedPath": "\/icons\/facebook-flat-vector-logo-400x400.png",
+		"outputAbbreviatedPath": "\/icons\/facebook-flat-vector-logo-400x400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/icons\/info.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -115,6 +126,17 @@
 		"initialSize": 31762,
 		"inputAbbreviatedPath": "\/icons\/Rectangle 1 + Oval 2 + Path 1 + Path 2 + Path 3.png",
 		"outputAbbreviatedPath": "\/icons\/Rectangle 1 + Oval 2 + Path 1 + Path 2 + Path 3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/icons\/Twitter_logo_blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22689,
+		"inputAbbreviatedPath": "\/icons\/Twitter_logo_blue.png",
+		"outputAbbreviatedPath": "\/icons\/Twitter_logo_blue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
