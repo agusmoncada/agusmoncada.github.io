@@ -74,7 +74,7 @@ html, body {
 }
 
 .socialMedia a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 .titleScroll {
@@ -118,7 +118,7 @@ html, body {
 
 .textScrollUp {
   width: 100%;
-  height: 1400px;
+  height: 1000px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -142,9 +142,8 @@ html, body {
   font-family: 'Inconsolata', sans-serif;
   font-size: 24px;
   font-weight: 300;
-  text-align: left;
+  text-align: justify;
   color: white;
-
 }
 
 .capaContainer {
@@ -224,7 +223,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  margin-top: 2100px;
+  margin-top: 1800px;
   background: white;
   display: -webkit-box;
   display: -webkit-flex;
@@ -294,6 +293,7 @@ html, body {
 }
 
 .imageWork {
+  max-height: 800px;
   height: 96%;
   width: 100%;
 }

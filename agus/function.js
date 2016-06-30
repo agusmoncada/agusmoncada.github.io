@@ -21,8 +21,8 @@ $(document).ready(function(){
     var opacity3 = -($window.scrollTop() - 4300) / $window.scrollTop();
     var scrollWork = scrolledTop - 8000;
     var bottomWindow = window.innerHeight + $window.scrollTop();
-    var bottomWindowScroll = bottomWindow - 2100;
-
+    var bottomWindowScroll = bottomWindow - 1800;
+    
     if(ua.indexOf('applewebkit') >= 0 && ua.indexOf('chrome') < 0) {
       //with 2d transform for safari smooth scrolling
       if ($window.scrollTop() > -1) {
@@ -30,7 +30,7 @@ $(document).ready(function(){
         $paragraph.css({'opacity': -opacity2});
     }
 
-      if (scrolledTop >= 8400) {
+      if (scrolledTop >= 7197) {
         $whiteWork.addClass('in-view');
         $workScroll.css({'opacity': opacity3});
         $workContainer.css({'transform': 'translate(-' + scrollWork + 'px, 0px)'});
@@ -38,7 +38,7 @@ $(document).ready(function(){
         $whiteWork.removeClass('in-view');
       }
 
-      if (bottomWindow >= 2100) {
+      if (bottomWindow >= 1800) {
         $logo.css({'transform': 'translate(0px, -' + bottomWindowScroll + 'px)'});
         $socialMedia.css({'transform': 'translate(0px, -' + bottomWindowScroll + 'px)'});
       } else {
@@ -56,7 +56,7 @@ $(document).ready(function(){
         $paragraph.css({'opacity': -opacity2});
     }
 
-      if (scrolledTop >= 8400) {
+      if (scrolledTop >= 7197) {
         $whiteWork.addClass('in-view');
         $workScroll.css({'opacity': opacity3});
         $workContainer.css({'transform': 'translate3d(-' + scrollWork + 'px, 0px, 0px)'});
@@ -64,7 +64,7 @@ $(document).ready(function(){
         $whiteWork.removeClass('in-view');
       }
 
-      if (bottomWindow >= 2100) {
+      if (bottomWindow >= 1800) {
         $logo.css({'transform': 'translate3d(0px, -' + bottomWindowScroll + 'px, 0px)'});
         $socialMedia.css({'transform': 'translate3d(0px, -' + bottomWindowScroll + 'px, 0px)'});
       } else {
@@ -79,7 +79,7 @@ $(document).ready(function(){
 });
 
 
-//Chef if element is in view to fire animations
+//Chek if element is in view to fire animations
 $(document).ready(function(){
   var $animation_elements = $('.animation-element');
   var $window = $(window);
