@@ -29,7 +29,6 @@ var people = {
     },
     notAminateperson: function() {
       this.$ul.find('li').addClass('toggled');
-
     },
     addPerson: function() {
       this.people.push(this.$input.val());
