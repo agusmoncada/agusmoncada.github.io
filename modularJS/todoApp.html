@@ -1,0 +1,29 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>modular.js</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div id="peopleModule">
+    <h1>To Dos</h1>
+    <input placeholder="name" type="text">
+    <button type="button" name="button" id="addPerson">Add</button>
+    <ul>
+      <script id="people-template" type="text">
+        {{#people}}
+        <li class="lis">
+          <span>{{.}}</span>
+          <i class="del">Done</i>
+        </li>
+        {{/people}}
+      </script>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="mustache.min.js"></script>
+  <script src="modular.js"></script>
+</body>
