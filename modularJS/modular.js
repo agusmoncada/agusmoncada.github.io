@@ -14,16 +14,21 @@ var people = {
     },
     bidnEvents: function() {
       this.$button.on('click', this.addPerson.bind(this));
-      //this.$button.on('click', this.animatePerson.bind(this));
+      this.$button.on('click', this.animatePerson.bind(this)).delay(300);
       this.$ul.delegate('i.del', 'click', this.deletePerson.bind(this));
     },
-
     render: function() {
       var data = {
         people: this.people,
       };
       this.$ul.html(Mustache.render(this.template, data));
-      this.$ul.find('li').addClass('newLi');
+    },
+    animatePerson: function() {
+        this.$ul.find('li').addClass('toggled');
+        this.$ul.find('li:last-child').addClass('newLi');
+    },
+    notAminateperson: function() {
+      this.$ul.find('li').addClass('toggled');
     },
     addPerson: function() {
       this.people.push(this.$input.val());
@@ -35,6 +40,7 @@ var people = {
       var i = this.$ul.find('li').index($remove);
       this.people.splice(i, 1);
       this.render();
+      this.notAminateperson();
     }
   };
 
