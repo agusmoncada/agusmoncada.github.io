@@ -2,7 +2,7 @@ var people = {
     people: [],
     init: function() {
       this.cacheDom();
-      this.bidnEvents();
+      this.bindEvents();
       this.render();
     },
     cacheDom: function() {
@@ -12,9 +12,9 @@ var people = {
       this.$ul = this.$el.find('ul');
       this.template = this.$el.find('#people-template').html();
     },
-    bidnEvents: function() {
+    bindEvents: function() {
       this.$button.on('click', this.addPerson.bind(this));
-      this.$button.on('click', this.animatePerson.bind(this)).delay(500);
+      this.$button.on('click', this.animatePerson.bind(this));
       this.$ul.delegate('i.del', 'click', this.deletePerson.bind(this));
     },
     render: function() {
@@ -24,8 +24,8 @@ var people = {
       this.$ul.html(Mustache.render(this.template, data));
     },
     animatePerson: function() {
-        this.$ul.find('li').addClass('toggled');
-        this.$ul.find('li:last-child').addClass('newLi');
+        this.$ul.find('li:not(:last-child)').addClass('toggled'); 
+        this.$ul.find('li:last-child').addClass('newLi').delay(300);
     },
     notAminateperson: function() {
       this.$ul.find('li').addClass('toggled');
